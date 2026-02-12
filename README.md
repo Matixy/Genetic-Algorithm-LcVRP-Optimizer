@@ -1,8 +1,6 @@
 # Genetic-Algorithm-LcVRP-Optimizer
 A C++ object-oriented implementation of a Genetic Algorithm designed to solve the Limited Capacitated Vehicle Routing Problem (LcVRP), featuring custom memory management and strict architectural constraints.
 
-# Genetic Algorithm Optimizer for LcVRP
-
 > **Project Description**
 > This project is a modular C++ implementation of a Genetic Algorithm (GA) designed to solve the **Limited Capacitated Vehicle Routing Problem (LcVRP)**. It features a strictly layered architecture with a custom `CConsoleInterface` controller and a robust, exception-free error handling system based on the **Result Pattern**.
 
