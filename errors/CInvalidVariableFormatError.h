@@ -1,0 +1,19 @@
+//
+// Created by Share on 13.01.2026.
+//
+
+#ifndef MIN_PROJEKT_MATEUSZ_ZADROZNY_CINVALIDVARIABLEFORMATERROR_H
+#define MIN_PROJEKT_MATEUSZ_ZADROZNY_CINVALIDVARIABLEFORMATERROR_H
+#include "CError/CError.h"
+
+
+class CInvalidVariableFormatError : public CError {
+  public:
+    CInvalidVariableFormatError(const std::string& sDescription);
+
+  private:
+    const static std::string ERROR_TYPE;
+};
+
+
+#endif //MIN_PROJEKT_MATEUSZ_ZADROZNY_CINVALIDVARIABLEFORMATERROR_H
